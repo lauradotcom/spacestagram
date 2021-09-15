@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import PostFeed from './PostFeed';
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <header className="App-header">
         Spacestagram
       </header>
+      <PostFeed />
     </div>
   );
 }
