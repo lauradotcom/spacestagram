@@ -1,10 +1,10 @@
 import './PostFeed.css';
-import './Post';
+import Post from './Post';
 
 const PostFeed = () => {
   return (
     <main className="post-grid">
-      YOLO
+      <Post />
     </main>
   );
 }
