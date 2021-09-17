@@ -1,4 +1,5 @@
 import './Post.css';
+import LikeButton from './LikeButton';
 
 const Post = (props) => {
   return (
