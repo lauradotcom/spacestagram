@@ -32,18 +32,14 @@ const PostFeed = () => {
 if (loading) return 'Loading...';
 if (error) return 'Error!';
 
-  const photos = data;
-  const firstPhoto = photos[0];
-  console.log(firstPhoto);
+  const posts = data;
+  console.log(posts);
 
   return (
     <main className="post-grid">
-      <Post 
-        title={firstPhoto.title}
-        caption={firstPhoto.explanation}
-        date={firstPhoto.date}
-        image={firstPhoto.url}
-        />
+      {posts.map((post) => (
+        <Post {...post} />
+      ))}
     </main>
   );
 }
