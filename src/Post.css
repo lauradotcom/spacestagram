@@ -1,5 +1,7 @@
 .post-wrapper {
-  margin: 1% 0;
+  margin-bottom: 1.5rem;
+  border: 1px solid #eee;
+  border-radius: 5px;
 }
 
 .post-wrapper img {
