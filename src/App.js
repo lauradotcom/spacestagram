@@ -1,8 +1,10 @@
+import React from 'react';
 import './App.css';
 import PostFeed from './PostFeed';
 import RefreshButton from './RefreshButton';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
