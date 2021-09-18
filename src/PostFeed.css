@@ -12,6 +12,6 @@
   .post-grid {
     grid-template-columns: auto;
     width: 40vw;
-    justify-items: center;
+    margin: 0 auto;
   }
 }
