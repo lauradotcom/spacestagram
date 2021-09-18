@@ -1,4 +1,5 @@
 import './Post.css';
+import LikeButton from './LikeButton';
 
 const Post = (props) => {
   return (
@@ -7,7 +8,7 @@ const Post = (props) => {
         src={props.url} alt={props.title} />
       
       <div className="post-content">
-        <div className="likes"><span class="far fa-heart"></span></div>
+        <LikeButton />
         <h2 className="post-title">{props.title}</h2>
         <p className="post-caption">{props.explanation}</p>
         <p className="post-date">{props.date}</p>
