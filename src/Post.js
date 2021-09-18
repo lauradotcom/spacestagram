@@ -4,9 +4,19 @@ import LikeButton from './LikeButton';
 const Post = (props) => {
   return (
     <div className="post-wrapper">
+      { props.media_type === 'image' ?
       <img 
-        src={props.url} alt={props.title} />
-      
+        src={props.url} alt={props.title} /> :
+      <div className="video-wrapper">
+        <iframe
+          title={props.title}
+          src={props.url}
+          frameborder="0"
+          scrolling="auto"
+        >
+        </iframe>
+      </div>
+      }   
       <div className="post-content">
         <LikeButton />
         <h2 className="post-title">{props.title}</h2>
