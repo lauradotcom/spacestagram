@@ -18,15 +18,12 @@ The app pulls five random photos from NASA's Photo of the Day API and displays t
 ## How To Run Locally
 
 1. Generate a free API key from [https://api.nasa.gov](https://api.nasa.gov).
-2. Create an .env file in the root of your project directory and add `REACT_APP_API_KEY = yourApiKeyHere`
+2. Create a `.env` file in the root of your project directory and add `REACT_APP_API_KEY = yourApiKeyHere`
 3. Make sure you have yarn installed.
 4. Install Axios by running:
-
-### `yarn add axios`
-
+`yarn add axios`
 5. Run:
-
-### `yarn start`
+`yarn start`
 
 This will start the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
