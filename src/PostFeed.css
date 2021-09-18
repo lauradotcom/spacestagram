@@ -5,3 +5,13 @@
   width: 100vw;
   background: #fff;
 }
+
+/* Desktop styles */
+
+@media screen and (min-width: 1024px) {
+  .post-grid {
+    grid-template-columns: auto;
+    width: 40vw;
+    justify-items: center;
+  }
+}
