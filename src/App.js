@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div></div>
         <h1>Spacestagram</h1>
         <RefreshButton />
       </header>
