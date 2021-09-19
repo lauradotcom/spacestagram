@@ -65,4 +65,10 @@
     border: 1px solid #eee;
     border-radius: 5px;
   }
+  /* Change post border for darkmode */
+  @media (prefers-color-scheme: dark) {
+    .post-wrapper {
+    border: 1px solid #111111;
+    }
+  }
 }
