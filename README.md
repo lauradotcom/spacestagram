@@ -14,7 +14,7 @@ The app pulls five random photos from NASA's Photo of the Day API and displays t
 * Yarn
 
 ## Live Deployment
-You can view the [https://hellospacestagram.netlify.app](live site) on Netlify.
+You can view the [live site](https://hellospacestagram.netlify.app) on Netlify.
 
 ## How To Run Locally
 
