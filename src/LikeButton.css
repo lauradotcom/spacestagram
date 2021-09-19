@@ -7,3 +7,7 @@ button {
 .far, .fas {
   font-size: 1.5rem;
 }
+
+.liked {
+  color: #FF0033;
+}
