@@ -13,8 +13,8 @@ The app pulls five random photos from NASA's Photo of the Day API and displays t
 * Date-fns library
 * Yarn
 
-## Live Demo
-
+## Live Deployment
+You can view the [https://hellospacestagram.netlify.app/](live site) on Netlify.
 
 ## How To Run Locally
 
