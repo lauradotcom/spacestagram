@@ -3,6 +3,10 @@ import LikeButton from './LikeButton';
 import { formatDistance } from 'date-fns';
 
 const Post = (props) => {
+
+  let today = new Date();
+  console.log(today);
+
   return (
     <div className="post-wrapper">
       { props.media_type === 'image' ?
@@ -22,7 +26,10 @@ const Post = (props) => {
         <LikeButton />
         <h2 className="post-title">{props.title}</h2>
         <p className="post-caption">{props.explanation}</p>
-        <p className="post-date">{props.date}</p>
+        <p className="post-date">{formatDistance(new Date(props.date), new Date(), {
+          addSuffix: true
+        })}
+        </p>
       </div>
     </div>
   )
