@@ -9,7 +9,7 @@ button {
 }
 
 .liked {
-  color: #FF0033;
+  color: #ED4956;
   animation-duration: 0.5s;
   animation-name: bounceIn;
 }
