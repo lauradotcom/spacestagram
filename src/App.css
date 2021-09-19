@@ -9,6 +9,7 @@
   font-weight: 300;
   line-height: 1.25rem;
   background-color: #fafafa;
+  color: #333;
 }
 
 .App-header {
@@ -28,4 +29,21 @@
 .App-header h1 {
   font-size: 1.75rem;
   font-weight: 400;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #000;
+  }
+
+  .App {
+    background-color: #000;
+    color: #fafafa;
+  }
+
+  .App-header {
+    background-color: #000;
+    color: #fafafa;
+    border-bottom: #0a0a0a;
+  }
 }

@@ -41,6 +41,23 @@
   text-align: left;
 }
 
+/* Darkmode Styles */
+
+@media (prefers-color-scheme: dark) {
+  .post-wrapper {
+    background: #0a0a0a;
+  }
+  
+  .post-content {
+    background: #0a0a0a;
+    color: #dadada;
+  }
+
+  .post-date {
+    color: #aeaeae;
+  }
+}
+
 /* Desktop Styles */
 
 @media screen and (min-width: 1024px) {

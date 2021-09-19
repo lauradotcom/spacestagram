@@ -7,6 +7,7 @@ button {
 .far, .fas {
   font-size: 1.5rem;
   cursor: pointer;
+  color: #000;
 }
 
 .liked {
@@ -26,5 +27,11 @@ button {
 
   100% {
     transform: scale(1);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .far, .fas {
+    color: #fafafa;
   }
 }
