@@ -30,7 +30,7 @@ const PostFeed = () => {
 }, []);
 
 if (loading) return 'Loading...';
-if (error) return 'Error!';
+if (error) return `Sorry, we're unable to load your posts! Please try again in a minute.`;
 
   const posts = data;
   console.log(posts);
