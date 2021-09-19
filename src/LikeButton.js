@@ -4,7 +4,7 @@ import './LikeButton.css';
 const LikeButton = () => {
 
   const unliked = 'far fa-heart';
-  const liked = 'fas fa-heart';
+  const liked = 'fas fa-heart liked';
 
   const [like, setLike] = useState(false);
   const [heartClass, setHeartClass] = useState(unliked);
