@@ -10,6 +10,7 @@ The app pulls five random photos from NASA's Photo of the Day API and displays t
 
 * React
 * Axios library
+* Date-fns library
 * Yarn
 
 ## Live Demo
@@ -22,7 +23,9 @@ The app pulls five random photos from NASA's Photo of the Day API and displays t
 3. Make sure you have yarn installed.
 4. Install Axios by running:
 `yarn add axios`
-5. Run:
+5. Install the date-fns library by running:
+`yarn add date-fns`
+6. Run:
 `yarn start`
 
 This will start the app in the development mode.\
