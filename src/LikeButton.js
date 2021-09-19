@@ -8,7 +8,6 @@ const LikeButton = () => {
 
   const [like, setLike] = useState(false);
   const [heartClass, setHeartClass] = useState(unliked);
-  console.log(like);
 
   const handleClick = (event) => {
     event.preventDefault();
