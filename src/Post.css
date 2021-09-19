@@ -41,11 +41,34 @@
   text-align: left;
 }
 
+/* Darkmode Styles */
+
+@media (prefers-color-scheme: dark) {
+  .post-wrapper {
+    background: #0a0a0a;
+  }
+  
+  .post-content {
+    background: #0a0a0a;
+    color: #dadada;
+  }
+
+  .post-date {
+    color: #aeaeae;
+  }
+}
+
 /* Desktop Styles */
 
 @media screen and (min-width: 1024px) {
   .post-wrapper {
     border: 1px solid #eee;
     border-radius: 5px;
+  }
+  /* Change post border for darkmode */
+  @media (prefers-color-scheme: dark) {
+    .post-wrapper {
+    border: 1px solid #111111;
+    }
   }
 }
