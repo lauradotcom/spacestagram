@@ -5,7 +5,6 @@ import { formatDistance } from 'date-fns';
 const Post = (props) => {
 
   let today = new Date();
-  console.log(today);
 
   return (
     <div className="post-wrapper">
@@ -26,7 +25,7 @@ const Post = (props) => {
         <LikeButton />
         <h2 className="post-title">{props.title}</h2>
         <p className="post-caption">{props.explanation}</p>
-        <p className="post-date">{formatDistance(new Date(props.date), new Date(), {
+        <p className="post-date">{formatDistance(new Date(props.date), today, {
           addSuffix: true
         })}
         </p>
