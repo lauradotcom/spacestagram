@@ -42,8 +42,8 @@
   }
 
   .App-header {
-    background-color: #000;
+    background-color: #0a0a0a;
     color: #fafafa;
-    border-bottom: #0a0a0a;
+    border-bottom: 1px solid #333;
   }
 }
