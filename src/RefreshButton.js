@@ -10,7 +10,10 @@ const RefreshButton = () => {
   return (
     <button
       onClick={refreshFeed}
-      className="fas fa-redo-alt"></button>
+      className="fas fa-redo-alt"
+      title="Load more posts"
+    >
+    </button>
   )
 }
 
