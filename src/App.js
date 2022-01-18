@@ -10,9 +10,10 @@ function App() {
       <header className="App-header">
         <div></div>
         <h1>Spacestagram</h1>
-        <RefreshButton />
+        <div></div>
       </header>
       <PostFeed />
+      <RefreshButton />
     </div>
   );
 }
