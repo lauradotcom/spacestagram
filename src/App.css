@@ -10,6 +10,7 @@
   line-height: 1.25rem;
   background-color: #fafafa;
   color: #333;
+  margin-bottom: 10vh;
 }
 
 .App-header {
@@ -31,6 +32,45 @@
   font-weight: 400;
 }
 
+.App-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  min-height: 5vh;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #eee;
+  padding: 1rem;
+}
+
+.App-footer p {
+  color: mediumvioletred;
+  margin: 0;
+  padding: 0.2rem;
+}
+
+.App-footer a {
+  color: mediumvioletred;
+}
+
+.App-footer a:hover {
+  color: darkviolet;
+  transition: color 0.3s ease-in 0.1s;
+}
+
+.fab {
+  font-size: 1.2rem;
+  padding: 0 1rem;
+  color: mediumvioletred;
+}
+
+.fab:hover {
+  color: darkviolet;
+  transition: color 0.3s ease-in 0.1s;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     background-color: #000;
@@ -45,5 +85,30 @@
     background-color: #0a0a0a;
     color: #fafafa;
     border-bottom: 1px solid #333;
+  }
+
+  .App-footer {
+    background-color: #0a0a0a;
+    border-top: 1px solid #333;
+  }
+
+  .App-footer p {
+    color: orchid;
+  }
+
+  .App-footer a { 
+    color: orchid;
+  }
+
+  .App-footer a:hover {
+    color: violet;
+  }
+
+  .fab {
+    color: orchid;
+  }
+
+  .fab:hover {
+    color: violet;
   }
 }
