@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import PostFeed from './PostFeed';
 import RefreshButton from './RefreshButton';
+import Delayed from './Delayed';
 
 function App() {
 
@@ -10,9 +11,12 @@ function App() {
       <header className="App-header">
         <div></div>
         <h1>Spacestagram</h1>
-        <RefreshButton />
+        <div></div>
       </header>
       <PostFeed />
+      <Delayed>
+        <RefreshButton />
+      </Delayed>
     </div>
   );
 }
