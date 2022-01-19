@@ -18,7 +18,8 @@ function App() {
         <RefreshButton />
       </Delayed>
       <footer className="App-footer">
-        <p>Created by <a target="_blank" rel="noreferrer" href="https://laurahawkins.dev">Laura Hawkins</a> using NASA's Photo of the Day API <a target="_blank" rel="noreferrer" href="https://github.com/lauradotcom/spacestagram"><span class="fab fa-github"></span></a></p>
+        <p>Created by <a target="_blank" rel="noreferrer" href="https://laurahawkins.dev">Laura Hawkins</a> using NASA's Photo of the Day API</p>
+        <p><a target="_blank" rel="noreferrer" href="https://github.com/lauradotcom/spacestagram"><span class="fab fa-github"></span></a></p>
       </footer>
     </div>
   );

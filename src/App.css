@@ -33,16 +33,22 @@
 }
 
 .App-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #fff;
   min-height: 5vh;
   width: 100vw;
   position: fixed;
   bottom: 0;
   border-top: 1px solid #eee;
+  padding: 1rem;
 }
 
 .App-footer p {
   color: mediumvioletred;
+  margin: 0;
+  padding: 0.2rem;
 }
 
 .App-footer a {
