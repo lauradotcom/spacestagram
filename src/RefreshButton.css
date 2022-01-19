@@ -2,3 +2,7 @@
   cursor: pointer;
   padding: 2rem;
 }
+
+.hidden {
+  visibility: hidden;
+}

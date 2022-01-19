@@ -1,7 +1,7 @@
 import React from 'react';
 import './RefreshButton.css';
 
-const RefreshButton = () => {
+const RefreshButton = (loading) => {
 
   const refreshFeed = () => {
     window.location.reload(true);

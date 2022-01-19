@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import PostFeed from './PostFeed';
 import RefreshButton from './RefreshButton';
-
+import Delayed from './Delayed';
 function App() {
 
   return (
@@ -13,7 +13,9 @@ function App() {
         <div></div>
       </header>
       <PostFeed />
-      <RefreshButton />
+      <Delayed>
+        <RefreshButton />
+      </Delayed>
     </div>
   );
 }
