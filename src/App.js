@@ -17,6 +17,9 @@ function App() {
       <Delayed>
         <RefreshButton />
       </Delayed>
+      <footer className="App-footer">
+        <p>Created by Laura Hawkins using NASA's Photo of the Day API.</p>
+      </footer>
     </div>
   );
 }

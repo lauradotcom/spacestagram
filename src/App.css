@@ -31,6 +31,19 @@
   font-weight: 400;
 }
 
+.App-footer {
+  background-color: #fff;
+  min-height: 5vh;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #eee;
+}
+
+.App-footer p {
+  color: mediumvioletred;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     background-color: #000;
