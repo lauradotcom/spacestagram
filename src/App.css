@@ -77,4 +77,29 @@
     color: #fafafa;
     border-bottom: 1px solid #333;
   }
+
+  .App-footer {
+    background-color: #0a0a0a;
+    border-top: 1px solid #333;
+  }
+
+  .App-footer p {
+    color: orchid;
+  }
+
+  .App-footer a { 
+    color: orchid;
+  }
+
+  .App-footer a:hover {
+    color: violet;
+  }
+
+  .fab {
+    color: orchid;
+  }
+
+  .fab:hover {
+    color: violet;
+  }
 }
